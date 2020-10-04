@@ -1,0 +1,193 @@
+.block {
+  display: inline-block;
+}
+
+.bold {
+  font-size: 1.5vw;
+}
+
+.darkblue {
+  background-color: darkblue;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  pointer-events: none;
+}
+
+.dropdown-item :hover {
+  background-color: darkorchid;
+}
+
+.dropdown-divider {
+  border: 1px solid grey;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal input {
+  border: none transparent;
+  outline: none;
+  background-color: rgba(236, 45, 45, 0.575);
+  font-size: 18px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+#navbar {
+  z-index: 1000000;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.view {
+  width: 100%;
+  height: 370px;
+}
+
+.square {
+  background-color: blueviolet;
+  color: aliceblue;
+  border: 5px solid black;
+  width: 400px;
+  height: auto;
+  padding: 8px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 18px rgb(0, 0, 0);
+}
+
+.square:hover {
+  background-color: brown;
+}
+
+.custom-button {
+  background-color: blueviolet;
+  border-radius: 28px;
+  border: 3px solid black;
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 18px rgb(0, 0, 0);
+}
+
+.custom-button-2 {
+  border: 3px solid black;
+  color: aliceblue;
+  background-color: transparent;
+  border-radius: 28px;
+  padding: 15px;
+  font-weight: bold;
+  box-shadow: 0 3px 18px rgb(0, 0, 0);
+}
+
+.custom-button:hover {
+  background-color: brown;
+}
+
+.custom-button-2:hover {
+  background-color: brown;
+}
+
+.custom-height-width {
+  padding: 9px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.card-header {
+  border: 2px solid black;
+}
+
+.card-header:hover {
+  background-color: darkgrey;
+  border: 2px solid black;
+}
+
+.square1 {
+  background-color: darkslateblue;
+  padding: 9px;
+  margin: 0 40% 3% 40%;
+  border: 5px solid black;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.9);
+}
+
+.card1 {
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.9);
+  background-color: darkslateblue;
+  border: 5px solid black;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.cir {
+  background-color: darkblue;
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  padding: 9%;
+  margin-left: 24%;
+  box-shadow: 0 3px 18px rgb(0, 0, 0);
+}
+
+i {
+  color: goldenrod !important;
+}
+
+.card-body input {
+  border: 2px solid black;
+}
+
+.card-body textarea {
+  border: 2px solid black;
+}
+
+.cir1 {
+  background-color: darkblue;
+  border: 5px solid black;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+
+  margin-left: 47%;
+  box-shadow: 0 3px 18px rgb(0, 0, 0);
+}
+
+#run {
+  width: 100px;
+  height: 100px;
+  background: darkblue;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin: 5px;
+  border: 3px solid black;
+}
+
+.count {
+  line-height: 100px;
+  color: white;
+  margin-left: 26px;
+  font-weight: bold;
+  font-size: 28px;
+}
